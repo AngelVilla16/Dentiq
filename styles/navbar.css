@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 20px;
+    background-color:#ffffff;
+   height:60px;
+}
+.left-nav{
+    display:flex;
+    
+    flex-direction:row;
+    align-items:center;
+    
+    
+}
+.title{
+    font-size:1.5rem;
+    font-weight:600;
+    margin-left:10px;
+    color:#155dfc;
+    font-family: 'Roboto', sans-serif;
+}
+.right-nav{
+    display:flex;
+    flex:1;
+    flex-direction:row;
+    justify-content:center;
+    align-items:flex-end;
+    padding:5px;
+    height:40px;
+}
+.options-nav{
+    display:flex;
+    flex-direction:column;
+    align-self:flex-end;
+    align-items:flex-end;
+    margin:20px;
+    margin-top:auto;
+}
+.btn-primary-nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 8px 16px; 
+  min-width: 100px;  
+  height: 38px;     
+  
+  background-color: #155dfc;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem; 
+  font-weight: 500;
+  
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: flex-end;
+  
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  user-select: none;
+}
+
+
+.btn-primary-nav:hover {
+  background-color: #0b4bd8;
+}
+
+.btn-primary-nav:active {
+  transform: scale(0.98);
+}
+.nav-link{
+    text-decoration:none;
+    color:#155dfc;
+    padding:10px;
+    font-size:1rem;
+   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    list-style: none;
+    margin-top:100px;
+}
