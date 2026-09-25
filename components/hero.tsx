@@ -4,7 +4,7 @@ export default function Hero(){
     return(
         <>
         <div className="hero">
-                <div className="right">
+                <div className="left">
                 <div className="label">
                     Dentiq
                 </div>
@@ -16,7 +16,7 @@ export default function Hero(){
                 </p>
                 <div className="actions">
                     <Button className="btn-primary" textBtn="Agendar cita" />
-                    <Button className="btn-secondary" textBtn="Como funciona" />
+                    <Button className="btn-secondary" textBtn="Cómo funciona" />
                 </div>
                 <div className="reviews">
                     <div className="review">
@@ -34,7 +34,7 @@ export default function Hero(){
 
                 </div>
             </div>
-            <div className="left">
+            <div className="right">
               <div className="img-container">
                 <img src="/assets/sonrisa.png" alt="Hero Image"/>
               </div>
