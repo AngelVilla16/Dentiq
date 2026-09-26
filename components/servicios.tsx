@@ -3,7 +3,9 @@ import Card from '@/components/ui/Card';
 export default function Servicios(){
     return(
         <>
-            <div className="servicios" id="servicios">
+            {/* no `id` here: the wrapping <section> in app/page.tsx already
+                owns "servicios", and duplicate ids break anchor navigation */}
+            <div className="servicios">
                 <div className="headline-section">
                     <span className="headline"> LO QUE OFRECEMOS</span>
                     <h2 className="title">Todo lo que necesitas en un solo lugar</h2>

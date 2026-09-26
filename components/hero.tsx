@@ -36,7 +36,7 @@ export default function Hero(){
             </div>
             <div className="right">
               <div className="img-container">
-                <img src="/assets/sonrisa.png" alt="Hero Image"/>
+                <img src="/assets/sonrisa.png" alt="Hero Image" loading='lazy' />
               </div>
             </div>
         </div>
