@@ -16,3 +16,24 @@ body {
   background: white;
   background-attachment: fixed; 
 }
+
+html {
+  scroll-behavior: smooth;
+  /* keeps anchored sections clear of the sticky navbar when jumping to them */
+  scroll-padding-top: 90px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Several component stylesheets still ship an `html, body { height: 100% }`
+   reset. That caps the body box at one viewport, and the body box is the
+   containing block a sticky navbar is confined to, so the navbar would scroll
+   away after the first screen. Deliberately more specific than that 0-0-1
+   rule, since the component stylesheets are injected after this file. */
+html body {
+  height: auto;
+}
