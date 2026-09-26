@@ -8,8 +8,12 @@ export default function Index() {
     <>
     <Navbar/>
     <main>
-      <Hero />
-      <Servicios/>
+      <section>
+        <Hero />
+      </section>
+      <section id='servicios'>
+        <Servicios />
+      </section>
     </main>
     </>
   );

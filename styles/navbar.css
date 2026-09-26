@@ -23,12 +23,15 @@ nav{
     
     
 }
-.title{
+.nav-title{
     font-size:1.5rem;
     font-weight:600;
     margin-left:10px;
     color:#155dfc;
     font-family: 'Roboto', sans-serif;
+}
+.nav-title:hover{
+    cursor: pointer;
 }
 .right-nav{
     display:flex;

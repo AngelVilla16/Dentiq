@@ -11,6 +11,11 @@
     justify-content: center;
     align-items: center;
     margin:40px;
-    width:100%;
-    
+    /* width must stay `auto`: with box-sizing:border-box, `100%` ignores the
+       40px margins and overflows the parent by 80px. */
+    width:auto;
+    max-width:100%;
+}
+section{
+    margin-bottom:200px;
 }

@@ -9,7 +9,7 @@ export default function Navbar() {
             <header>
                 <nav>
                     <div className="left-nav">
-                        <h1 className="title">Dentiq</h1>
+                        <a href="/" className="nav-title">Dentiq</a>
 
                     </div>
                     <div className="right-nav">

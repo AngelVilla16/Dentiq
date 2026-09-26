@@ -1,21 +1,22 @@
+import '@/styles/card.css';
+
 interface CardProps{
-    className?: string;
     headline?:string;
     body?:string;
     src?:string;
 
 }
 
-export default function Card({className, headline, body,src}:CardProps){
+export default function Card({ headline, body,src}:CardProps){
     return(
         <>
             <div className="card">
                
                 <div className="head-card">
-                    <div className="img-head">
-                     <img src={src}/>
-                    </div>  
-                    <span className={className}> {headline}</span>    
+                    
+                     <img className="img-card" src={src}/>
+                      
+                    <span className="card-headline"> {headline}</span>    
                 </div>
                 <div className="card-content">
                     <p>
