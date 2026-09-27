@@ -4,18 +4,19 @@
     margin: 0;
     padding: 0;
 }
-.hero{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin:40px;
-    /* width must stay `auto`: with box-sizing:border-box, `100%` ignores the
-       40px margins and overflows the parent by 80px. */
-    width:auto;
-    max-width:100%;
+
+section {
+    margin-bottom: 120px;
 }
-section{
-    margin-bottom:200px;
+
+@media (max-width: 980px) {
+    section {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 620px) {
+    section {
+        margin-bottom: 60px;
+    }
 }

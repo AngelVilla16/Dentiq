@@ -2,7 +2,8 @@ interface buttonProps{
     className?:string,
     textBtn?:string,
     onClick?:()=>void,
-    type?: "button" | "submit" | "reset"
+    type?: "button" | "submit" | "reset";
+    buttonIcon?:string;
 }
 
 export default function Button({className, textBtn, onClick, type}: buttonProps){

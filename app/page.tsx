@@ -2,6 +2,8 @@ import Hero from '@/components/hero';
 import Navbar from '@/components/navbar';
 import Servicios from '@/components/servicios';
 import Funcionamiento from '@/components/funcionamiento';
+import Testimonios from '@/components/testimonios';
+import Banner from '@/components/banner';
 import '@/styles/index.css';
 
 export default function Index() {
@@ -9,7 +11,7 @@ export default function Index() {
     <>
     <Navbar/>
     <main>
-      <section>
+      <section id='inicio'>
         <Hero />
       </section>
       <section id='servicios'>
@@ -17,6 +19,12 @@ export default function Index() {
       </section>
       <section id='funcionamiento'>
         <Funcionamiento/>
+      </section>
+      <section id="testimonios">
+        <Testimonios/>
+      </section>
+      <section>
+        <Banner/>
       </section>
     </main>
     </>
