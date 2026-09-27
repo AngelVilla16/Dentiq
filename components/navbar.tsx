@@ -20,7 +20,7 @@ export default function Navbar() {
     return(
         <header className="nav-header" data-open={open}>
             <nav className="nav-bar">
-                <Link href="/" className="nav-title">Dentiq</Link>
+                <Link href="#inicio" className="nav-title">Dentiq</Link>
 
                 <ul className="nav-list">
                     {LINKS.map((link) => (

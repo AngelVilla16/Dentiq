@@ -4,10 +4,12 @@ interface CardProps{
     headline?:string;
     body?:string;
     src?:string;
+    footerHeadline?:string;
+    footerSubheadline?:string;
 
 }
 
-export default function Card({ headline, body,src}:CardProps){
+export default function Card({ headline, body,src, footerHeadline, footerSubheadline}:CardProps){
     return(
         <>
             <div className="card">
@@ -22,6 +24,10 @@ export default function Card({ headline, body,src}:CardProps){
                     <p>
                         {body}
                     </p>
+                </div>
+                <div className="card-footer">
+                    {footerHeadline}
+                    {footerSubheadline}
                 </div>
             </div>
         </>
