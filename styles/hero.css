@@ -95,6 +95,10 @@
 }
 
 .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     background-color: #155dfc;
     width: 150px;
     height: 42px;
@@ -109,6 +113,10 @@
 }
 
 .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     border: 1px solid #6a7282;
     background-color: transparent;
     color: #6a7282;
