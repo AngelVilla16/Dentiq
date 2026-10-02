@@ -3,6 +3,7 @@ import Navbar from '@/components/navbar';
 import Servicios from '@/components/servicios';
 import Funcionamiento from '@/components/funcionamiento';
 import Testimonios from '@/components/testimonios';
+import Contacto from '@/components/contacto';
 import Banner from '@/components/banner';
 import '@/styles/index.css';
 
@@ -25,6 +26,9 @@ export default function Index() {
       </section>
       <section>
         <Banner/>
+      </section>
+       <section id="contacto" className="contacto-section">
+        <Contacto/>
       </section>
     </main>
     </>

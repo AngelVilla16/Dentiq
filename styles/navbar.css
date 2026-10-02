@@ -60,7 +60,7 @@
     display:inline-flex;
     align-items:center;
     justify-content:center;
-
+    gap:8px;
     padding: 8px 16px;
     min-width: 100px;
     height: 38px;
